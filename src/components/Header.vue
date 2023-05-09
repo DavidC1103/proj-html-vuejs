@@ -60,11 +60,11 @@ export default{
 @use'../scss/partials/palette' as *;
     header{
         height: 120px;
+        
         nav{
             letter-spacing: 1px;
             font-size: 16px;
             font-weight: 600;
-
             .dropdown{
                 position: relative;
                 display: inline-block;
@@ -103,9 +103,6 @@ export default{
                     }
                 }
             }
-
-
-
             .nav-item-dc{
                 margin-left: 30px;
                 display: flex;
@@ -132,12 +129,9 @@ export default{
                 
             }
 
-            .navbar-nav{
-                --bs-nav-link-color: $black;
-            }
 
 
-
+            /*BOTTONE*/
             .dc-button{
                 border-radius: 10px;
                 background-color: $orange-faded;
@@ -153,10 +147,16 @@ export default{
                     padding: 20px 25px;
                 }
             }
+
+            /*GENERALI HEADER*/
             .fa-phone{
                 margin-left: 10px;
                 color: $orange;
-            } 
+            }
+            
+            .navbar-nav{
+                --bs-nav-link-color: $black;
+            }
         }
     }
 </style>
