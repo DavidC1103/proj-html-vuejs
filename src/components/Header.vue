@@ -52,12 +52,12 @@ export default{
             </div>
         </nav>
     </header>
-    
+
   <jumbotron/>
 </template>
 
 <style lang="scss">
-@use'../scss/main.scss' as *;
+@use'../scss/partials/palette' as *;
     header{
         height: 120px;
         nav{
@@ -78,9 +78,10 @@ export default{
                     display: none;
                     position: absolute;
                     min-width: 250px;
-                    top: 70px;
+                    padding: 10px;
+                    top: 60px;
                     border: 0;
-                    box-shadow: 0px 8px 16px 0px rgba(0, 0,0, 0.2);
+                    box-shadow: 0px 0px 1px 0px rgba(0, 0,0, 0.1);
                     z-index: 1;
                     &:hover{
                         background-color: none;
@@ -94,7 +95,6 @@ export default{
                     }
                 }
                 &:hover{
-                    cursor: pointer;
                     .dropdown-menu{
                         display: block ;
                     }
@@ -110,9 +110,11 @@ export default{
                 margin-left: 30px;
                 display: flex;
                 align-items: center;
-                height: 100%;
-                .dc-link{
-                    transition: all 0.1s;
+                .nav-link{
+                    &:hover{
+                        color: $orange;
+                        cursor: pointer;
+                    }
                     &::after{
                         display: block;
                         content: '';
@@ -125,11 +127,9 @@ export default{
                     &:hover::after{
                         width: 100%;
                     }
-                    &:hover{
-                        color: $orange;
-                        cursor: pointer;
-                    }
+
                 }
+                
             }
 
             .navbar-nav{
