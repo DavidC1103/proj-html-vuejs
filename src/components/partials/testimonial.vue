@@ -8,10 +8,10 @@ export default {
 <template>
     <div class="container">
         <div class="row mt-5">
-            <div class="col-6 mt-5">
+            <div class="col-6 mt-5 reveal">
                 <img src="../../assets/img/large-testimonial-600x583.jpg" alt="" class="testimonial">
             </div>
-            <div class="col-4 p-5 ms-0 mt-4">
+            <div class="col-4 p-5 ms-0 mt-4 reveal fade-right">
                 <div class="fs-3 fw-bold mb-5">“The team at Avada Marketing Consultant is fabulous. They helped us unlock our potential online and offline. We have experienced year on year growth due to their progressive approach.”</div>
                 <span class="mt-5">Kate Schadler</span> <br>
                 <span class="role">Marketing Consultant – Abstract</span>

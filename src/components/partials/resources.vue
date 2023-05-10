@@ -8,37 +8,32 @@ export default {
     <div class="dc-bg-color">
         <div class="container">
             <div class="row">
-                <div class="col-6 ms-0 mb-5">
+                <div class="col-6 ms-0 mb-5 reveal">
                     <h2>Marketing Resources: Insider Advice on How to Increase Online Sales</h2>
                 </div>
-                <div class="col-5 d-flex justfify-content-end align-items-end me-3 mb-5">
+                <div class="col-5 d-flex justfify-content-end align-items-end me-3 mb-5 reveal">
                     <div class="me-0 mb-5">
                         <button class="dc-button">Explore All Resources</button>
                     </div>
                 </div>
-                <div class="col-4">
+                <div class="col-4 reveal">
                     <img src="../../assets/img/blog-posts-4-400x267.jpg" alt="">
                     <div class="faded"></div>
                     <div class="mt-3"><span class="fs-2">Marketing Tips And Tricks For Your Website</span></div>
                 </div>
-                <div class="col-4">
+                <div class="col-4 reveal">
                     <img src="../../assets/img/blog-posts-5-400x267.jpg" alt="">
                     <div class="faded"></div>
                     <div class="mt-3"><span class="fs-2">How to Write Stunning Blog Post Titles</span></div>
-                    
                 </div>
-                <div class="col-4">
+                <div class="col-4 reveal">
                     <img src="../../assets/img/blog-posts-6-400x267.jpg" alt="">
                     <div class="faded"></div>
                     <div class="mt-3"><span class="fs-2">Techniques to Reduce Facebook Ads Spend</span></div>
-
                 </div>
-                
             </div>
-    
         </div>
     </div>
-  
 </template>
 
 <style lang="scss">

@@ -1,15 +1,9 @@
 @import './partials/palette.scss';
+@import'./partials/general.scss';
 @import '/node_modules/bootstrap/scss/bootstrap.scss';
 @import '/node_modules/@fontsource/roboto';
 
 
 
-*{
-    margin:0 auto ;
-    padding: 0 auto;
-    box-sizing: border-box;
-}
 
-body{
-    font-family: 'Roboto' sans-serif;
-}
+

@@ -42,11 +42,10 @@ export default{
                             <span class="nav-link"><i class="fa-solid fa-phone"></i></span>
                             <span class="nav-link">(555) 802-1234 </span>
                         </li>
-                        
-                            <button class="dc-button nav-link"><span>Free Quote</span></button>
-                        
-                       
-                        
+
+                        <li class="nav-item-dc mb-5">
+                            <button class="dc-button nav-link mb-4"><span>Free Quote</span></button>
+                        </li>                  
                     </ul>
                 </div>
             </div>

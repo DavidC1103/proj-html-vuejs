@@ -23,30 +23,30 @@ export default{
 <template>
     <main class="container mt-5">
         <div class="row">
-            <div class="col-6">
+            <div class="col-6 reveal fade-left">
                 <img src="../assets/img/image.png" alt="">
             </div>
-            <div class="col-4 mt-5">
+            <div class="col-4 mt-5 reveal fade-right">
                 <span>Business Growth</span>
                 <h2>Increase Brand Awareness</h2>
                 <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor placerat luctus. Nullam sit amet ante sed orci convallis gravida et at massa.</span>
                 <button class="dc-button">Get A Consultation</button>
             </div>
             <div class="dc-margin"></div>
-            <div class="col-4">
+            <div class="col-4 reveal fade-left">
                 <span>Investors In People</span>
                 <h2>In-House Sales Training</h2>
                 <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor placerat luctus. Nullam sit amet ante sed orci convallis gravida et at massa.</span>
                 <button class="dc-button">Get A Consultation</button>
             </div>
-            <div class="col-4">
+            <div class="col-4 reveal fade-right">
                 <img src="../assets/img/image (1).png" alt="">
             </div>
             <div class="dc-margin"></div>
-            <div class="col-6">
+            <div class="col-6 reveal fade-left">
                 <img src="../assets/img/image (2)(1).png" alt="">
             </div>
-            <div class="col-4">
+            <div class="col-4 reveal fade-right">
                 <span>Social Media Analysis</span>
                 <h2>Harness Your Social Proof</h2>
                 <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor placerat luctus. Nullam sit amet ante sed orci convallis gravida et at massa.</span>

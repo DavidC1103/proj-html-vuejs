@@ -8,14 +8,14 @@ export default {
     <div class="dc-bg-color-2">
         <div class="container">
             <div class="row">
-                <div class="col-6 text-white">
+                <div class="col-6 text-white reveal fade-left">
                     <h2>Let’s Make Things Happen</h2>
                     <p class="dc-p">Curabitur ac leo nunc. Vestibulum et mauris vel ante finibus maximus nec ut leo. Integer consectetur.</p>
                     <p class="mb-4">“The team at Avada Marketing Consultant is fabulous. They helped us unlock our potential online and offline. We have experienced year on year growth due to their progressive approach.”</p>
                     <span class="d-block">George Anderson</span>
                     <span class="dc-span">Digitalbox CEO</span>
                 </div>
-                <div class="col-6">
+                <div class="col-6 reveal">
                     <div class="right-col text-center">
                         <img src="../../assets/img/marketing-consultant-expert.jpg" alt="" class="expert">
                         <div class="mt-3"><h3>Richard Madsen</h3></div>

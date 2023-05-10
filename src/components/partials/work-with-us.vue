@@ -13,24 +13,24 @@ export default{
     <div class="dc-bg-color">
         <div class="container">
             <div class="row">
-                <div class="col-5 mt-5">
+                <div class="col-5 mt-5 reveal fade-left">
                     <h2>We Boost Our Clients’ Bottom Line by Optimizing Their Growth Potential.</h2>
                     <span>Quisque aliquet, libero consequat elementum convallis, erat risus imperdiet pellentesque sem neque eget.</span>
                     <div>
                         <button class="dc-button">Why Work Whit Us</button>
                     </div>
                 </div>
-                <div class="col-5">
+                <div class="col-5 reveal fade-right">
                     <img src="../../assets/img/we-boost-our-clients-600x549.jpg" alt="">
                 </div>
                 <div class="dc-margin"></div>
-                <div class="col-5">
+                <div class="col-5 reveal">
                     <h3 class="mb-3 fs-2">We Build Relationships</h3>
                     <span class="fs-5 mb-5">Curabitur ac leo nunc. Vestibulum et mauris vel ante finibus maximus nec ut leo. Integer consectetur.</span>
                     <h3 class="mt-5 fs-2">Proprietary Processes</h3>
                     <span class="fs-5">Curabitur ac leo nunc. Vestibulum et mauris vel ante finibus maximus nec ut leo. Integer consectetur.</span>
                 </div>
-                <div class="col-5">
+                <div class="col-5 reveal">
                     <div class="ms-0">
                         <div class="d-flex align-items-center mb-5">
                             <img src="../../assets/img/image (2).png" alt="" class="me-4 ms-4">
@@ -53,12 +53,12 @@ export default{
                                 <span class="fs-5">Curabitur ac leo nunc vestibulum</span>
                             </div>
                         </div>
-
                     </div>
                 </div>
             </div>
 
             <Awards/>
+            
         </div>
     </div>
   

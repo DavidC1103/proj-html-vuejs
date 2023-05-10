@@ -8,7 +8,7 @@ export default {
     <div class="cards-container container">
         <h2 class="text-center">Trusted by Leading Organisations</h2>
         <div class="row">
-            <div class="col-4">
+            <div class="col-4 reveal fade-left">
                 <img src="../../assets/img/case-studies-1-400x450.jpg" alt="">
                 <div class="faded"></div>
                 <div class="mt-3 mb-5">
@@ -21,7 +21,7 @@ export default {
                     <span>Higher revenue from digital</span>
                 </div>
             </div>
-            <div class="col-4">
+            <div class="col-4 reveal">
                 <img src="../../assets/img/case-studies-4-400x450.jpg" alt="">
                 <div class="faded"></div>
                 <div class="mt-3 mb-5">
@@ -34,7 +34,7 @@ export default {
                     <span>Sales increase with the same ad spend</span>
                 </div>
             </div>
-            <div class="col-4">
+            <div class="col-4 reveal fade-right">
                 <img src="../../assets/img/case-studies-6-400x450.jpg" alt="">
                 <div class="faded"></div>
                 <div class="mt-3 mb-5">

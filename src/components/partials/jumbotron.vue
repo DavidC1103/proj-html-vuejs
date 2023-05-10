@@ -8,7 +8,7 @@ export default{
     <div class="jumbo">
         <div class="container">
             <div class="row g-5">
-                <div class="col-6 text-white">
+                <div class="col-6 text-white active fade-left">
                     <div class="left-col">
                         <h1>Unlock Your Online Growth Potential</h1>
                         <span>Online marketing to secure customer retention, leads, and sales. We focus on the bigger picture.</span>
