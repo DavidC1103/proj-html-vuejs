@@ -19,6 +19,9 @@ export default{
 
 <template>
   <Header/>
+
+
+  <Footer/>
  
 </template>
 
