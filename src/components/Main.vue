@@ -3,6 +3,9 @@ import brands from './partials/brands.vue'
 import expert from './partials/expert-main.vue'
 import cards from './partials/cards.vue'
 import WorkWithUs from './partials/work-with-us.vue'
+import Testimonial from './partials/testimonial.vue'
+import Resources from './partials/resources.vue'
+import EndSection from './partials/end-section.vue'
 
 export default{
     components:{
@@ -10,6 +13,9 @@ export default{
         expert,
         cards,
         WorkWithUs,
+        Testimonial,
+        Resources,
+        EndSection,
     }
 }
 </script>
@@ -55,10 +61,21 @@ export default{
 
     <!--EXPERT ON MAIN-->
     <expert/>
-
+    
+    
+    <!--CARDS ON MAIN-->
     <cards/>
-
+    
+    <!--SECTION WORK-WITH-US ON MAIN-->
     <Work-With-Us/>
+    
+    <!--TESTIMONIAL ON MAIN-->
+    <Testimonial/>
+    
+    <!--SECTION RESOURCES ON MAIN-->
+    <resources/>
+
+    <end-section/>
   
 </template>
 
