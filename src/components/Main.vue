@@ -2,13 +2,15 @@
 import brands from './partials/brands.vue'
 import expert from './partials/expert-main.vue'
 import cards from './partials/cards.vue'
+import WorkWithUs from './partials/work-with-us.vue'
+
 export default{
     components:{
         brands,
         expert,
-        cards
+        cards,
+        WorkWithUs,
     }
-    
 }
 </script>
 
@@ -55,6 +57,8 @@ export default{
     <expert/>
 
     <cards/>
+
+    <Work-With-Us/>
   
 </template>
 
