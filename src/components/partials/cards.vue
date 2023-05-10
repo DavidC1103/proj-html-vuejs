@@ -10,6 +10,7 @@ export default {
         <div class="row">
             <div class="col-4">
                 <img src="../../assets/img/case-studies-1-400x450.jpg" alt="">
+                <div class="faded"></div>
                 <div class="mt-3 mb-5">
                     <span class="info">
                         How Spaces attracted five million visitors by improving the content
@@ -22,6 +23,7 @@ export default {
             </div>
             <div class="col-4">
                 <img src="../../assets/img/case-studies-4-400x450.jpg" alt="">
+                <div class="faded"></div>
                 <div class="mt-3 mb-5">
                     <span class="info">
                         Creativity helped Hemisferio to increase their brand reach vertically
@@ -34,6 +36,7 @@ export default {
             </div>
             <div class="col-4">
                 <img src="../../assets/img/case-studies-6-400x450.jpg" alt="">
+                <div class="faded"></div>
                 <div class="mt-3 mb-5">
                     <span class="info">
                         How DigitalBox used AI-powered data insight to boost sales
@@ -59,6 +62,32 @@ export default {
     h2{
         font-size: 60px;
         margin-bottom: 100px;
+    }
+    .row{
+        .col-4{
+            position: relative;
+            img{
+                &:hover{
+                    cursor: pointer;
+                }
+            }
+            .faded{
+                position: absolute;
+                width: 400px;
+                bottom: 316px;
+                height: 100%;
+                opacity: 0;
+                background: linear-gradient(180deg, transparent, rgba(37,37,37,0.01),$orange);
+                transition: all 1.5s;
+                &:hover{
+                    cursor: pointer;
+                    opacity: 1;
+                }
+                
+            }
+        }
+        
+        }
     }
     .info{
         font-size: 33px;
@@ -89,6 +118,5 @@ export default {
             background-color: #DA5107;
         }
     }
- }
 
 </style>
