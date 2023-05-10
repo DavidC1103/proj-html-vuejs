@@ -118,7 +118,7 @@ export default{
                 border-radius: 15px;
                 border: none;
                 &:hover{
-                    background-color: #e66f2f;
+                    background-color: #DA5107;
                 }
 
             }
