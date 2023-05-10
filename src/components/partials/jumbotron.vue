@@ -117,6 +117,7 @@ export default{
                 color: $white;
                 border-radius: 15px;
                 border: none;
+                transition: all 0.3s;
                 &:hover{
                     background-color: #DA5107;
                 }

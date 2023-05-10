@@ -1,8 +1,12 @@
 <script>
 import brands from './partials/brands.vue'
+import expert from './partials/expert-main.vue'
+import cards from './partials/cards.vue'
 export default{
     components:{
-        brands
+        brands,
+        expert,
+        cards
     }
     
 }
@@ -43,9 +47,14 @@ export default{
             </div>
         </div>
     </main>
-    
+
     <!--BRANDS-->
     <brands/>
+
+    <!--EXPERT ON MAIN-->
+    <expert/>
+
+    <cards/>
   
 </template>
 
@@ -71,6 +80,7 @@ export default{
                 color: $white;
                 border-radius: 10px;
                 border: none;
+                transition: all 0.3s;
                 &:hover{
                     background-color: #DA5107;
                 }
