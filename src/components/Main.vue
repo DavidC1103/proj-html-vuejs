@@ -27,14 +27,14 @@ export default{
                 <img src="../assets/img/image.png" alt="">
             </div>
             <div class="col-4 mt-5 reveal fade-right">
-                <span>Business Growth</span>
+                <span><i class="fa-brands fa-pix dc-i-blue"></i> Business Growth</span>
                 <h2>Increase Brand Awareness</h2>
                 <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor placerat luctus. Nullam sit amet ante sed orci convallis gravida et at massa.</span>
                 <button class="dc-button">Get A Consultation</button>
             </div>
             <div class="dc-margin"></div>
             <div class="col-4 reveal fade-left">
-                <span>Investors In People</span>
+                <span><i class="fa-brands fa-connectdevelop dc-i-yellow"></i> Investors In People</span>
                 <h2>In-House Sales Training</h2>
                 <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor placerat luctus. Nullam sit amet ante sed orci convallis gravida et at massa.</span>
                 <button class="dc-button">Get A Consultation</button>
@@ -47,7 +47,7 @@ export default{
                 <img src="../assets/img/image (2)(1).png" alt="">
             </div>
             <div class="col-4 reveal fade-right">
-                <span>Social Media Analysis</span>
+                <span><i class="fa-brands fa-hornbill dc-i-green"></i> Social Media Analysis</span>
                 <h2>Harness Your Social Proof</h2>
                 <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor placerat luctus. Nullam sit amet ante sed orci convallis gravida et at massa.</span>
                 <button class="dc-button">Get A Consultation</button>
@@ -110,6 +110,24 @@ export default{
 
         .dc-margin{
             margin: 150px 0px ;
+        }
+        .dc-i-blue{
+            color: $white;
+            background-color: $blue;
+            padding: 10px;
+            border-radius: 50%;
+        }
+        .dc-i-yellow{
+            color: $white;
+            background-color: $yellow;
+            padding: 10px;
+            border-radius: 50%;
+        }
+        .dc-i-green{
+            color: $white;
+            background-color: $green;
+            padding: 10px;
+            border-radius: 50%;
         }
 
     }
